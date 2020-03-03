@@ -6,7 +6,7 @@ module.exports = function (controller) {
 
     controller.on( 'memberships.created', async( bot, message ) => {
 
-        let markDown = `Hi, I am the **${ controller.adapter.identity.displayName }** bot!  \n`
+        let markDown = `Hi, I am the **${ controller.adapter.identity.displayName }**!  \n`
         markDown += 'If you need to submit a ticket, go here -->'  ';
 
         if ( message.data.roomType == 'group' ) {
