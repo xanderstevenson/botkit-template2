@@ -19,7 +19,7 @@
             await bot.beginDialog( 'color_chat' );
         });
 
-        controller.commandHelp.push( { command: 'color', text: 'Pick a favorite color (Botkit conversations)' } );
+        controller.commandHelp.push( { command: 'color', text: 'Pick a favorite color, please (Botkit conversations)' } );
 
     }
 
