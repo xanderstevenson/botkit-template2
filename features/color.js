@@ -6,7 +6,7 @@
 
         convo.say( 'This is a Botkit conversation sample.' );
         convo.ask(
-            'What is your favorite color?',
+            'What is your favorite Color?',
             async( answer, convo, bot ) => {},
             'stated_color'
         );
