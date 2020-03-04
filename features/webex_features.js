@@ -44,9 +44,9 @@ module.exports = function(controller) {
 
     });
 
-    controller.on('memberships.created', async(bot, message) => {
-        console.log('memberships created', message);
-    });
+//     controller.on('memberships.created', async(bot, message) => {
+//         console.log('memberships created', message);
+//     });
 
 
 }
