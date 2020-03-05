@@ -6,7 +6,7 @@ module.exports = function (controller) {
 
     controller.on( 'memberships.created', async( bot, message ) => {
 
-        let markDown = `Welcome to DevNet!!!\n\n Hi, I am the **${ controller.adapter.identity.displayName }**!  \n If you need to submit a ticket, go here -->`
+        let markDown = `Welcome to DevNet!!!\n\n Hi, I am the **${ controller.adapter.identity.displayName }**!  \n If you need to submit a ticket, go here --> https://devnetsupport.cisco.com/hc/en-us/requests/new`
 
 
         if ( message.data.roomType == 'group' ) {
