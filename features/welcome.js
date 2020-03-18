@@ -11,12 +11,13 @@ module.exports = function (controller) {
                         --> https://devnetsupport.cisco.com/hc/en-us/requests/new \
                         \n\n Your Self-Help Options for the DevNet Associate Fundamentals Course:\
                         \n 1. Check the course <a href='https://developer.cisco.com/docs/fundamentals/help/'>FAQs<a> \
-                        \n 2. Ask the Experts in the <a hreh='https://learningnetwork.cisco.com/s/topic/0TO3i0000008jY5GAI/devnet-certifications-community'> \
-                            DevNet Certifications Community</a> \
-                        \n 3. Open a Ticket regarding\
-                        \n\t Payment \
-                        \n\t Platform \
-                        \n\t Content \
+                        \n 2. For any questions on content, or for help with the course labs, please go to the <a href='https://learningnetwork.cisco.com/s/topic/0TO3i0000008jY5GAI/devnet-certifications-community'> \
+                            DevNet Certifications Community</a> and ask/interact with the Experts there. \
+                        \n 3. For any <strong>technical issues</strong> with your course, including page appearance, video or lab functionality, or payments, please open a ticket with \
+                        <a href='https://devnetsupport.cisco.com/hc/en-us/requests/new?ticket_form_id=360002862214'>DevNet Course Support</a> \
+//                         \n\t\t\t e.g. The Terminal isn't reciving input \
+//                         \n\t\t\t e.g. \
+//                         \n\t\t\t Content \
                         \n`
 
 
