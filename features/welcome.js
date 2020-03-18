@@ -12,7 +12,7 @@ module.exports = function (controller) {
                         \n\n Here are your *<u>Self-Help</u>* options for the *<u>DevNet Associate Fundamentals Course</u>*:\
                         \n --- \
                         \n * **Search for common issues and their answers** in the course <a href='https://developer.cisco.com/docs/fundamentals/help/'>**FAQs**<a>(<---click here). \
-                        \n * **Questions on content** or **help with the course labs** can be found at the <a href='https://learningnetwork.cisco.com/s/topic/0TO3i0000008jY5GAI/devnet-certifications-community'>**DevNet Certifications Community**</a>###### (<---click here).\
+                        \n * **Questions on content** or **help with the course labs** can be found at the <a href='https://learningnetwork.cisco.com/s/topic/0TO3i0000008jY5GAI/devnet-certifications-community'>**DevNet Certifications Community**</a> ###### (<---click here).\
                         \n * **Technical issues** with your course, including page appearance, video or lab functionality, or payments? \
                         <a href='https://devnetsupport.cisco.com/hc/en-us/requests/new?ticket_form_id=360002862214'>**Open a ticket**</a> (<---click here) with DevNet Course Support. \
                         \n`
