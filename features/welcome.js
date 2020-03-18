@@ -12,7 +12,7 @@ module.exports = function (controller) {
                         \n\n Here are your Self-Help Options for the DevNet Associate Fundamentals Course:\
                         \n --- \
                         \n * <u>Search for common issues and their answers</u> in the course <a href='https://developer.cisco.com/docs/fundamentals/help/'>FAQs<a>. \
-                        \n * For any <span style="color:rgb(0,0,255);">questions on content</span>, or for <strong>help with the course labs</strong>, please go to the DevNet Certifications Community and<a href='https://learningnetwork.cisco.com/s/topic/0TO3i0000008jY5GAI/devnet-certifications-community'> \
+                        \n * For any <span style="color:#009edc">questions on content</span>, or for <strong>help with the course labs</strong>, please go to the DevNet Certifications Community and<a href='https://learningnetwork.cisco.com/s/topic/0TO3i0000008jY5GAI/devnet-certifications-community'> \
                              ask the Experts</a> there. \
                         \n * For any **technical issues** with your course, including page appearance, video or lab functionality, or payments, please \
                         <a href='https://devnetsupport.cisco.com/hc/en-us/requests/new?ticket_form_id=360002862214'>open a ticket</a> with DevNet Course Support \
@@ -21,8 +21,8 @@ module.exports = function (controller) {
 
         if ( message.data.roomType == 'group' ) {
 
-            markDown += `\n_Note_ this is a "group" space.\n\t I (the Bot) will answer only if mentioned!  \n`
-            markDown += `For help, enter: ${ controller.checkAddMention( message.data.roomType, 'help' ) }`
+            markDown += `\n_Note_ this is a "group" space.\n and I (the Bot) will answer only if mentioned!  \n`
+            markDown += `For help, enter: ${ controller.checkAddMention( message.data.roomType, '' ) } help`
         }
         console.log('memberships created', message);
         await bot.reply( message, { markdown : markDown} );
