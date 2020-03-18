@@ -9,7 +9,7 @@ module.exports = function (controller) {
         let markDown = `## **Welcome to DevNet!**\
                         \n\n![alt text](https://github.com/xanderstevenson/botkit-template/blob/master/assets/images/CiscoDevNetSmall.png)
                         \n\n Hi, I'm the **${ controller.adapter.identity.displayName }**!  \
-                        \n\n *<u>Self-Help</u>* options for the *<u>DevNet Associate Fundamentals Course</u>* (blue text = clickable links):\
+                        \n\n *Self-Help* options for the *DevNet Associate Fundamentals Course* (blue text = clickable link):\
                         \n --- \
                         \n * **Search for common issues and their answers** in the course <a href='https://developer.cisco.com/docs/fundamentals/help/'>**FAQs**<a>. \
                         \n * **Questions on content** or **help with the course labs** can be found at the <a href='https://learningnetwork.cisco.com/s/topic/0TO3i0000008jY5GAI/devnet-certifications-community'>**DevNet Certifications Community**</a>.\
