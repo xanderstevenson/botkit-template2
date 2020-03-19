@@ -24,7 +24,7 @@ Assuming you plan to expose your bot via [ngrok](https://ngrok.com), you can run
     cd botkit-template
     ```
 
-1. Install the Node.js dependencies:
+1. Install the Node.js dependencies:.
 
     ```sh
     npm install
