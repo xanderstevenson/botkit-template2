@@ -6,10 +6,9 @@ module.exports = function (controller) {
 
     controller.on( 'memberships.created', async( bot, message ) => {
 
-        let markDown = `## **Welcome to DevNet!**\
+        let markDown = `## ****Welcome to DevNet!****\
                         \n\n![alt text](https://github.com/xanderstevenson/botkit-template/blob/master/assets/images/CiscoDevNetSmall.png)
-                        \n\n Hi, I'm the **${ controller.adapter.identity.displayName }**!  \
-                        \n\n *Self-Help* options for the *DevNet Associate Fundamentals Course* (blue text = clickable link):\
+                        \n\n _**Self-Help**_ options for the _**DevNet Associate Fundamentals Course**_ (blue text = clickable link):\
                         \n --- \
                         \n * **Search for common issues and their answers** in the course <a href='https://developer.cisco.com/docs/fundamentals/help/'>**FAQs**<a>. \
                         \n * **Questions on content** or **help with the course labs** can be found at the <a href='https://learningnetwork.cisco.com/s/topic/0TO3i0000008jY5GAI/devnet-certifications-community'>**DevNet Certifications Community**</a>.\
